@@ -17,23 +17,7 @@
 ### Stack/Tools
 - Python
 - Pandas library
-- Juypter Lab / Notebook
-
-### Setup Notes
-#### Virtual Enviornments with Juypter
-1) After creating virtual enviorment like usual
-```bash
-python -m venv venv
-venv/Scripts/activate
-pip install -r reqs.txt
-```
-2) the venv needs to then be added to juypter
-```bash
-ipython kernel install --user --name=venv
-```
-3) then switch the kernel to the venv
-###### ![Kernel -> Change Kernel](bin/changekernel.png)
-###### ![Select venv](bin/selectkernel.png)
+- Juypter Lab
 
 ---
 ###### [Explore more of my projects on my portfolio site](https://stevendindl.com/)
