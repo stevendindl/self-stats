@@ -1,4 +1,4 @@
-# Using Pandas to analyze my work productivity metrics
+# Using Jupypter Notebook with Pandas to analyze work productivity metrics
 
 
 ---
@@ -8,7 +8,8 @@
 \self-stats
 ├── \venv             # ignored via git
 ├── .gitignore
-├── mymetrics.py      # main code - usage of pandas
+├── mymetrics.ipynb   # main Jupypter file - usage of pandas
+├── mymetrics.py      
 ├── mystats.xlsx      # raw stats from annotation work - ignored via git    
 ├── readme.md         # project details
 └── reqs.text         # required python libaries    
@@ -17,7 +18,7 @@
 ### Stack/Tools
 - Python
 - Pandas library
-- Juypter Lab / Notebook
+- Juypter Notebook
 
 ### Setup Notes
 #### Virtual Enviornments with Juypter
@@ -31,7 +32,7 @@ pip install -r reqs.txt
 ```bash
 ipython kernel install --user --name=venv
 ```
-3) then switch the kernel to the venv
+3) then switch juypter kernel to the venv
 ###### ![Kernel -> Change Kernel](bin/changekernel.png)
 ###### ![Select venv](bin/selectkernel.png)
 
